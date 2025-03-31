@@ -22,7 +22,7 @@ class AlunoService {
 
     updateLocalStorage() {
         let alunos = JSON.stringify(this.alunos)
-        localStorage.setItem('aluno', alunos)
+        localStorage.setItem('alunos', alunos)
     }
 
     updateListAlunosFromLocalStorage() {
